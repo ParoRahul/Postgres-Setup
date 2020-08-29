@@ -139,7 +139,7 @@
 
 21. grant select_role and update_role to app_user from default super user       .
     ```
-        psql /* connect default DB using default super user */
+        psql -U postgres /* connect default DB using default super user */
 
         grant update_role to app_user;  /* From Super User */
         grant select_role to app_user;  /* From Super User */
