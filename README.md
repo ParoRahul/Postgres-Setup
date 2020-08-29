@@ -35,7 +35,7 @@
 
 12. Create two user ```app_admin``` and ```app_user``` from default supers user .
     ```
-        psql /* connect default DB using default super user */ 
+        psql -U postgres /* connect default DB using default super user */ 
 
         CREATE ROLE app_admin WITH
         LOGIN
@@ -60,7 +60,7 @@
 
 13. Create two two new Role select_role and update_role     
     ```
-        psql /* connect default DB using default super user */
+        psql -U postgres /* connect default DB using default super user */
 
         CREATE ROLE select_role WITH
         LOGIN
@@ -81,7 +81,7 @@
 
 14. GRANT select_role, update_role TO app_user; 
     ``` 
-    psql /* connect default DB using default super user */
+    psql -U postgres /* connect default DB using default super user */
 
     GRANT select_role, update_role TO app_user;
     ```
@@ -90,7 +90,7 @@
 
 16. create a new data base name app_data from cmd line 
     ```
-    createdb.exe -O app_admin  app_data 
+    createdb.exe -h localhost -p 5432 -U postgres -O app_admin  app_data
     ```
 
 17. create new schema app_schema from  app_admin on app_data database.
