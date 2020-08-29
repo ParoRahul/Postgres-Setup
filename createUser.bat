@@ -1,1 +1,1 @@
-call C:\Users\user\AppData\Roaming\pgsql\bin\createuser -s postgres
+call C:\Program Files\PostgreSQL\10\bin\createuser -s postgres

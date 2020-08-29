@@ -1,4 +1,3 @@
-set DATADIR=D:\database\pgdb\dbData
-set LOGDIR=D:\database\pgdb\dbLog
+set DATADIR=D:\postgres_data\dbdata
 
-call C:\Users\user\AppData\Roaming\pgsql\bin\pg_ctl.exe  start -D %DATADIR% -l %LOGDIR%
+call 'C:\Program Files\PostgreSQL\10\bin\pg_ctl.exe'  start -D %DATADIR% 

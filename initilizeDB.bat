@@ -1,3 +1,3 @@
 set DATADIR=D:\database\pgdb\dbData
 
-call C:\Users\user\AppData\Roaming\pgsql\bin\initdb -D %DATADIR%
+call C:\Program Files\PostgreSQL\10\bin\initdb -D %DATADIR%

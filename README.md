@@ -1,4 +1,4 @@
-# <center>Postgres DB Setup for Windows 
+# <center>Postgres DB Setup for Windows No admin
 <p align="center">
     <img src='https://www.vectorlogo.zone/logos/postgresql/postgresql-ar21.svg' width='400'>
 </p>
